@@ -1,0 +1,50 @@
+# ant HelloWorld
+
+```
+administrator@vinzor:~/Desktop/se2020-practice/Stage1/Test/AntAndHelloWorld$ ant
+Buildfile: /home/administrator/Desktop/se2020-practice/Stage1/Test/AntAndHelloWorld/build.xml
+
+clean:
+   [delete] Deleting directory /home/administrator/Desktop/se2020-practice/Stage1/Test/AntAndHelloWorld/classes
+
+init:
+    [mkdir] Created dir: /home/administrator/Desktop/se2020-practice/Stage1/Test/AntAndHelloWorld/classes
+
+compile:
+    [javac] Compiling 1 source file to /home/administrator/Desktop/se2020-practice/Stage1/Test/AntAndHelloWorld/classes
+
+run:
+     [java] Hello World java
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+```
+
+# junit HelloWorld
+
+JunitAndAntHW
+
+# Java Calculator Sonar
+
+Cal
+
+```
+administrator@vinzor:~$ cd $SONAR_HOME
+administrator@vinzor:~/Desktop/sonar-3.7.4/bin/linux-x86-64$ ./sonar.sh start
+Starting sonar...
+Removed stale pid file: /home/administrator/Desktop/sonar-3.7.4/bin/linux-x86-64/./sonar.pid
+Started sonar.
+administrator@vinzor:~/Desktop/sonar-3.7.4/bin/linux-x86-64$ 
+```
+
+http://localhost:9000
+
+# BugRunner
+
+
+```
+administrator@vinzor:~/Desktop/se2020-practice/GridWorldCode$ javac -cp gridworld.jar BugRunner.java
+administrator@vinzor:~/Desktop/se2020-practice/GridWorldCode$ java -cp .:gridworld.jar BugRunner
+
+```
+

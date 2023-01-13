@@ -1,0 +1,6 @@
+<project default = "mkdir">
+		<property name="name" value ="mm"/>
+		<target name = "mkdir">
+			<mkdir dir="${name}"/>
+		</target>
+</project>
